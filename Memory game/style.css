@@ -1,0 +1,40 @@
+/* Css reset here  */
+*::before,
+*::after {
+    font: inherit;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    background-color: #000;
+    height: 100vh;
+}
+
+.grid {
+    background-color: #fff;
+    width: 500px;
+    place-content: center;
+    display: flex;
+    padding-block: 12px;
+    flex-wrap: wrap;
+    border-radius: 12px;
+}
+
+.wrapper h3,
+span {
+    font-size: 30px;
+    color: #ddd;
+}
+
+img {
+    border: 1px solid white;
+    margin: 5px;
+    cursor: pointer;
+}
