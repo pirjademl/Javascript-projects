@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 90px;
+    display: grid;
+    place-items: center;
+}
+
+.wrapper {
+
+    box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.75);
+    background-color: #000000;
+    border: 2px solid greenyellow;
+    padding: 20px;
+    border-radius: 1.3rem;
+}
+
+
+.game-heading {
+    color: white;
+    font-family: 'Mooli', sans-serif;
+    font-weight: 400;
+    line-height: 14px;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.instruction {
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Mooli', sans-serif;
+}
+
+.btn-container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.btn-container button {
+    padding: 12px;
+    border-radius: 9.4rem;
+    cursor: pointer;
+
+    background-color: rgb(60, 60, 101);
+}
+
+.btn-container img {
+    height: 80px;
+    padding: 12px;
+    color: white;
+}
+
+.meta-info p {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: 900;
+    font-family: 'Mooli', sans-serif;
+}
